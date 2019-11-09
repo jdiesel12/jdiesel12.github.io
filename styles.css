@@ -1,0 +1,136 @@
+/*universal styles*/
+
+html
+body {
+    background-color: black;
+    font-family: Staatliches, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+
+/*Header*/
+.header {
+    overflow: hidden;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    top: 0;
+    z-index: 10;
+}
+
+.header img {
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.header a {
+    float: right;
+    padding: 8px;
+    color: gray;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+.background-container {
+    display: flex;
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin-top: 69px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.main-content {
+    height: 125px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+#featured {
+    margin: auto;
+    width: 1000px;
+    height: 700px;
+}
+
+.featured-tiles-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tile img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+    margin: 10px;
+}
+
+.tile span {
+    display: block;
+    text-align: center;
+}
+
+#content-h2 {
+    display: flex;
+    height: 45px;
+}
+
+#featured {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    margin: auto;
+    padding-top: 70px;
+}
+
+#locations h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+#locations .locations-flex-container {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.location {
+    width: 300px;
+    flex-wrap: wrap;
+    background-color: black;
+    margin: 40px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.footer {
+    text-align: center;
+}
+
+footer p {
+    text-align: left;
+    margin-top: 70px;
+    font-size: 16px;
+}
+
